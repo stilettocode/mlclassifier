@@ -62,7 +62,6 @@ Download classifier.exe from the releases, put the CSV's you want the classifier
 CSV handler (csvstream.hpp) written by Andrew DeOrio at the University of Michigan.
 Classifier written by Ian Kim.
 
-Last updated November 2025 for public display
 
 ## Demo
 ![Linux commands for running the executable](running.png)

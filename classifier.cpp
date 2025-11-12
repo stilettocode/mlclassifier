@@ -145,27 +145,16 @@ class classifier {
 
             string correctLabel;
             double calculatedProb;
-            int correctCount = 0;
-            int tried = 0;
 
             while (csvin >> row) {
-                string label = row["tag"];
                 string content = row["content"];
 
                 predict(correctLabel, calculatedProb, content);
-                ++tried;
-
-                if (correctLabel == label) {
-                    ++correctCount;
-                }
 
                 cout << "predicted = " << correctLabel 
                 << ", log-probability score = " << calculatedProb << "\n";
                 cout << "content = " << content << "\n" << endl;
             }
-
-            cout << "performance: " << correctCount << " / " 
-            << tried << " posts predicted correctly" << endl;
     }
     
     private:

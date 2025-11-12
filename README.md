@@ -1,6 +1,8 @@
 A simple naive Bayes classifier. Important to note that this implementation deviates from the usual implementation of these types of classifiers by using:
 
+```bash
 ln(1 / the total number of training material)
+```
 
 for cases where a word in the content being categorized has never been seen in the training dataset.
 

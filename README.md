@@ -4,6 +4,8 @@ ln(1 / the total number of training material)
 
 for cases where a word in the content being categorized has never been seen in the training dataset.
 
+The classifiers in the releases are compiled for Linux distros. 
+
 
 ## Usage
 

@@ -1,11 +1,7 @@
-#include <iostream>
-#include <string>
-#include <map>
 #include <set>
-#include <sstream>
-#include <utility>
+#include "csvstream.hpp"
 #include <cmath>
-#include "csvstream.hpp"   
+
 using namespace std;
 
 class classifier {
@@ -163,9 +159,9 @@ class classifier {
                     ++correctCount;
                 }
 
-                cout << "  correct = " << label << ", predicted = " << correctLabel 
+                cout << "predicted = " << correctLabel 
                 << ", log-probability score = " << calculatedProb << "\n";
-                cout << "  content = " << content << "\n" << endl;
+                cout << "content = " << content << "\n" << endl;
             }
 
             cout << "performance: " << correctCount << " / " 

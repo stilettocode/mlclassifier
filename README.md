@@ -59,8 +59,8 @@ Download classifier.exe from the releases, put the CSV's you want the classifier
 ./classifier.exe training.csv testing.csv > resultsfileanyname.txt
 ```
 ## Acknowledgements
-CSV handler (csvstream.hpp) written by Andrew DeOrio.
 Classifier written by Ian Kim.
+CSV handler (csvstream.hpp) written by Andrew DeOrio.
 
 
 ## Demo

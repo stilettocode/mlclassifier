@@ -1,4 +1,4 @@
-A simple naive Bayes classifier. Important to note that this implementation deviates from the usual implementation of these types of classifiers by using:
+A simple Naïve Bayes text classifier written in modern C++ that trains on CSV data and predicts content labels using log-probability scoring. Important to note that this implementation deviates from the usual implementation of these types of classifiers by using:
 
 ```bash
 ln(1 / the total number of training material)

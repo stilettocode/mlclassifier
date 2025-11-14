@@ -2,7 +2,7 @@
 
 What kind of app isn't usable on Windows? Now available as the cat-themed mlcalico in the releases tab. Check out how cool it looks! UI with Javascript and Electron, compiled with Electron Build.
 
-![Windows Release](wawadwd)
+![Windows Release](wawadwd.png)
 
 ## Specs
 

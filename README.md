@@ -2,6 +2,8 @@
 
 What kind of app isn't usable on Windows? Now available as the cat-themed mlcalico in the releases tab. Check out how cool it looks! UI with Javascript and Electron, compiled with Electron Build.
 
+![Windows Release](wawadwd)
+
 ## Specs
 
 A simple Naïve Bayes text classifier written in modern C++ that trains on CSV data and predicts content labels using log-probability scoring. Important to note that this implementation deviates from the usual implementation of these types of classifiers by using:
